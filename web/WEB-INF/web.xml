@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+        PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <!-- Servlets -->
+    <servlet>
+        <servlet-name>greetServlet</servlet-name>
+        <servlet-class>com.moveit.server.GreetingServiceImpl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>onceADayServiceImpl</servlet-name>
+        <servlet-class>com.moveit.server.OnceADayServiceImpl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>QueueEmailListServiceImpl</servlet-name>
+        <servlet-class>com.moveit.server.QueueEmailListServiceImpl</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>greetServlet</servlet-name>
+        <url-pattern>/gwtmodule/greet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>onceADayServiceImpl</servlet-name>
+        <url-pattern>/gwtmodule/onceaday</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>QueueEmailListServiceImpl</servlet-name>
+        <url-pattern>/gwtmodule/emaillist</url-pattern>
+    </servlet-mapping>
+
+    <!-- Default page to serve -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

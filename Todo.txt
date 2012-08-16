@@ -1,0 +1,20 @@
+Mangler:
+
+Automatisk focus af forskellige felter.
+
+disclaimer (rettigheder osv)
+
+søgehjælp
+
+sætte datoer og lignende i add-page og search page.
+
+indtastningshjælp på addpage.
+
+oversætte til engelsk.
+
+slå søgning ved dobbeltklik uden login fra.
+
+mail og udseende af mails.
+
+test på IE
+

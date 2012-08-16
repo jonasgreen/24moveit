@@ -1,0 +1,2 @@
+serviceClass: com.moveit.client.GreetingService
+path: 2892A2B43CB2228700C127DFA13CEA04.gwt.rpc

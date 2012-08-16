@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+        PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <!-- Servlets -->
+    <servlet>
+        <servlet-name>greetServlet</servlet-name>
+        <servlet-class>com.moveit.server.GreetingServiceImpl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>onceADayServiceImpl</servlet-name>
+        <servlet-class>com.moveit.server.OnceADayServiceImpl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>QueueEmailListServiceImpl</servlet-name>
+        <servlet-class>com.moveit.server.QueueEmailListServiceImpl</servlet-class>
+    </servlet>
+
+    <!-- seo -->
+
+    <servlet>
+        <servlet-name>seoindexservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.SeoIndexServlet</servlet-class>
+    </servlet>
+
+
+    <servlet>
+        <servlet-name>klaverflytningservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.KlaverFlytningServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>flyttefirmaservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.FlyttefirmaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>flyttefirmakoebenhavnservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.FlyttefirmaKoebenhavnServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>fragtmandpriserservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.FragtmaendPriserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>internationalflytningservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.InternationalFlytningServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>transportfirmaservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.TransportFirmaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pakketransportservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.PakketransportServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>kurertransportservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.KurerTransportServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>koeletransportservlet</servlet-name>
+        <servlet-class>com.moveit.server.seo.KoeletransportServlet</servlet-class>
+    </servlet>
+
+    <!-- Servlets MAPPING ****************************************************************** -->
+
+    <servlet-mapping>
+        <servlet-name>greetServlet</servlet-name>
+        <url-pattern>/gwtmodule/greet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>onceADayServiceImpl</servlet-name>
+        <url-pattern>/gwtmodule/onceaday</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>QueueEmailListServiceImpl</servlet-name>
+        <url-pattern>/gwtmodule/emaillist</url-pattern>
+    </servlet-mapping>
+
+    <!-- seo -->
+
+    <servlet-mapping>
+        <servlet-name>seoindexservlet</servlet-name>
+        <url-pattern>/gwtmodule/seoindex.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>klaverflytningservlet</servlet-name>
+        <url-pattern>/gwtmodule/klaverflytning.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>flyttefirmaservlet</servlet-name>
+        <url-pattern>/gwtmodule/flyttefirma.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>flyttefirmakoebenhavnservlet</servlet-name>
+        <url-pattern>/gwtmodule/flyttefirma-koebenhavn.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>fragtmandpriserservlet</servlet-name>
+        <url-pattern>/gwtmodule/fragtmand-priser.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>internationalflytningservlet</servlet-name>
+        <url-pattern>/gwtmodule/international-flytning.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>koeletransportservlet</servlet-name>
+        <url-pattern>/gwtmodule/koeletransport.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>kurertransportservlet</servlet-name>
+        <url-pattern>/gwtmodule/kurer-transport.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pakketransportservlet</servlet-name>
+        <url-pattern>/gwtmodule/pakketransport.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>transportfirmaservlet</servlet-name>
+        <url-pattern>/gwtmodule/transport-firma.html</url-pattern>
+    </servlet-mapping>
+
+    <!-- Default page to serve -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

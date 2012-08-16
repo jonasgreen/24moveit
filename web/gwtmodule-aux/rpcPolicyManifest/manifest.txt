@@ -1,0 +1,3 @@
+# Module gwtmodule
+# RPC service class, partial path of RPC policy file
+com.moveit.client.GreetingService, DC8FDD628336A92C9574431708472297.gwt.rpc

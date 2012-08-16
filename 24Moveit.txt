@@ -1,0 +1,50 @@
+Favoritter - vis skjul favoritter.
+
+Vis rute - fx dialogudveksling.
+
+klik på map - vis ruter fra og til dette nærområde - baseret på latlng + 2 i begge direktioner.
+
+
+dobbeltklikkes på den samme ballon to gange - gør man først i nærområde mode. Dobbelklikkes igen på samme ballon vises ruterne i popuplistbox, hvor man kan tilføje til favoritter.
+
+map skal resize og centreres hele tiden for at undgå fejl på internet explorer.
+
+Systemet skal også kunne bruges som administrationssystem over en vognmands ruter. Og måske et vognmandsfirma - ansattes ruter.
+
+samarbejde med den blå avis og Ebay.
+
+Map kan skydes til siden og dække søgeresultater.
+
+Favoritter laves i gul som en tab, der går ned og farver rammen om mappet gult. Alle ruter er også en tab i normal farve.
+
+erstatte zoom på kort med store plus og minus - fx i bordaux.
+
+Søg på land, by, radius, dato, kubikmeter.
+
+flytte: personer, gods, frie sæder, tom lastrum. (De forskellige typer kan angives som balloner i forskellige farver på map - og over som forklaring.)
+
+Ved oprettelse, skal angives om det er en enkeltforekomst eller gentages (forskelligt interval).
+
+type i resultliste skal være rødA/rødB/grønA/grønB ballon afhængig af gods eller fragt til eller fra nærområde.
+
+Når man dobbeltklikker på ballon, skal den vises udfoldet som den første i listen. Resten af ballonerne i nærområdet vises efterfølgende i listen.
+
+Fremsøger ruter som starter eller slutter i det indtastede område + radius.
+En rute viser, hvor folk vil ha flyttet noget fra (A) og til (B).
+
+1 latitude = 111 km
+
+latitude: 0 (1 longitude = 111 km)
+latitude: 15 (1 longitude = 107 km)
+latitude: 30 (1 longitude = 96 km)
+latitude: 45 (1 longitude = 79 km)
+latitude: 50 (1 longitude = 71 km)
+latitude: 55 (1 longitude = 63 km)
+latitude: 60 (1 longitude = 56 km)
+latitude: 65 (1 longitude = 47 km)
+latitude: 70 (1 longitude = 38 km)
+latitude: 75 (1 longitude = 29 km)
+
+Dansk firma halverer flyttepriser
+
+negativ margin fejler i ie7

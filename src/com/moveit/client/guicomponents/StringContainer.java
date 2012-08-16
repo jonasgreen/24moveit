@@ -1,0 +1,66 @@
+package com.moveit.client.guicomponents;
+
+import com.google.gwt.event.dom.client.FocusHandler;
+import com.google.gwt.event.dom.client.KeyDownHandler;
+import com.google.gwt.user.client.ui.Widget;
+
+/**
+ *
+ */
+public class StringContainer extends DataContainer{
+    
+    private TextBoxComponent guiComponent = new TextBoxComponent();
+
+    public StringContainer(String name, boolean mandatory) {
+        super(name, mandatory);
+    }
+
+    public Widget getDataWidget() {
+        return guiComponent.getTextBox();
+    }
+
+    public GuiComponent getGui() {
+        return guiComponent;
+    }
+
+    public void clear() {
+        guiComponent.setText("");
+        setDataIsIllegal(false);        
+    }
+
+    public void setValue(Object obj) {
+        setValue((String) obj);
+    }
+
+    public String getValue(){
+        return isEmpty() ? null : guiComponent.getText();
+    }
+
+    public void setValue(String value){
+        guiComponent.setText(value);
+    }
+
+    public boolean isEmpty(){
+        return guiComponent.isEmpty();
+    }
+
+    public void addKeyDownHandler(KeyDownHandler handler){
+        guiComponent.addKeyDownHandler(handler);
+    }
+
+    @Override
+    public void setFocus(boolean focus) {
+        guiComponent.getTextBox().setFocus(focus);
+    }
+
+    public void addFocusHandler(FocusHandler fh){
+        guiComponent.getTextBox().addFocusHandler(fh);
+    }
+
+    public void setVisible(boolean visible) {
+        guiComponent.getTextBox().setVisible(visible);
+        getLabel().getLabel().setVisible(visible);
+    }
+
+
+}

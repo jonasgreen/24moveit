@@ -1,0 +1,293 @@
+/** Add css rules here for your application. */
+
+/** Example rules used by the template application (remove for your app) */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 0px 70px;
+    text-align: center;
+}
+
+.addButton {
+    -x-system-font: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.0;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+    width: 400px;
+
+}
+
+.dialogVPanel {
+    margin: 5px;
+
+}
+
+.serverResponseLabelError {
+    color: red;
+}
+
+.termsH1 {
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #E1007A;
+    margin: 0px 20px 20px 20px;
+    text-align: left;
+}
+
+.termsH2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #E1007A;
+    margin: 30px 20px 6px 20px;
+    text-align: left;
+}
+
+.termsText {
+    x-system-font: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-size-adjust: none;
+    color: #4D4D4D;
+    margin: 0px 20px 20px 20px;
+    text-align: left;
+}
+
+.helpTextLarge {
+    font-size: 2.0em;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin: 4px 4px 8px 4px;
+    vertical-align: middle;
+}
+
+.helpTextSmall {
+    font-size: 1em;
+    color: #4D4D4D;
+    margin: 4px;
+    vertical-align: middle;
+}
+
+.helpH1 {
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 0px 20px 20px 20px;
+    text-align: left;
+    color: #FF5A00;
+}
+
+.helpH2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 30px 20px 6px 20px;
+    text-align: left;
+}
+
+.helpH3 {
+    font-size: 1.0em;
+    font-weight: bold;
+    margin: 25px 20px 2px 20px;
+    text-align: left;
+}
+
+.helpFrontNumber {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 8px 20px;
+    text-align: left;
+}
+
+.helpFrontNumberText {
+    x-system-font: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-size-adjust: none;
+    color: white;
+    margin: 0px 10px 20px 20px;
+    text-align: left;
+}
+
+.helpFrontH2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 130px 15px;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.helpFrontBottomH2 {
+    font-size: 1.0em;
+    font-weight: bold;
+    color: white;
+    margin: 15px 20px 15px 20px;
+    text-align: left;
+}
+
+.helpFrontBottomH3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin: 15px 20px 1px 20px;
+    text-align: center;
+}
+
+.helpSearchH2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    margin: 0px 20px 6px 15px;
+    text-align: left;
+}
+
+.helpSearchText {
+    color: black;
+    margin: 0px 20px 20px 15px;
+    text-align: left;
+}
+
+.helpText {
+    x-system-font: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-size-adjust: none;
+    margin: 0px 20px 20px 20px;
+    line-height: 1.25;
+    text-align: justify;
+    color: #464644;
+}
+
+.tipsText {
+    margin: 10px 10px 10px 10px;
+}
+
+.helpText3 {
+    x-system-font: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-size-adjust: none;
+    color: #4D4D4D;
+    font-size: 0.9em;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.cb {
+    background-image: url(TruckBlue2.png);
+    height: 157px;
+}
+
+.a1 A:link, .a1 A:visited, .a1 A:active, .a1 A:hover {
+    color: #035e81;
+}
+
+.helpIndex A:link, .helpIndex A:visited, .helpIndex A:active, .helpIndex A:hover {
+    color: #035e81;
+    margin: 0px 20px 2px 20px;
+    text-align: left;
+}
+
+.helpNumber {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #54A2D8;
+    margin: 0px 0px 8px 0px;
+    text-align: left;
+}
+
+.helpNumberSpace {
+    margin: 6px 0px 0px 20px
+}
+
+.helpNumberText {
+    color: #4D4D4D;
+    margin: 0px 20px 0px 10px;
+    text-align: center;
+}
+
+.bluelight_180x60 {
+    background: url("blue180x60_dark.png") no-repeat;
+}
+
+.bluelight_90x60 {
+    background: url("blue90x60_dark.png") no-repeat;
+}
+
+.orange_90x60 {
+    background: url("orange90x60.png") no-repeat;
+}
+
+.purple_90x60 {
+    background: url("purple_90x60.png") no-repeat;
+}
+
+.imageFront {
+    vertical-align: bottom;
+}
+
+.searchPopup {
+    border-left: solid blue 2px
+}
+
+.link a:link, .link a:hover, .link a:visited, .link a:active {
+    color: #035e81;
+}
+
+.gwt-Hyperlink a:link, .gwt-Hyperlink a:hover, .gwt-Hyperlink a:visited, .gwt-Hyperlink a:active {
+    color: #035e81;
+}
+
+.gwt-Hyperlink2 {
+    text-decoration: none;
+    color: black;
+
+}
+
+.fbrecommend {
+    cursor: pointer;
+    right: 0;
+    overflow: hidden;
+    position: fixed;
+    text-indent: -100000px;
+    top: 370px;
+    z-index: 100000;
+
+}
+
+.mappanel {
+    background-color : white;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom:-1px;
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    height: 30px;
+}
+
+.puha {
+    overflow-y: auto;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+    margin: 15px 6px 6px;
+}
+
